@@ -1,0 +1,122 @@
+<html lang="eng">
+  <head>
+<title> Sua idade nos Planetas do Sistema solar </title>
+    <link rel = "stylesheet" type= "text/css" href= "age.css">
+</head>
+  <form method = "POST">
+                       <div id="birthdate"class= "fancytype"
+<label for ="day"> Dia </label>
+    <input type="text" name="day" size ="5" placeholder="dd" tabindex="2"
+     <label for="month"> Mês: </label>
+    <input type= "text" name = "month" size = "5" placeholder ="mm" tabindex "1" >
+    <label for = "year" > Ano </label>
+<input type= "text" name = "year" size= "5" placeholder= "aaaa" baindex="3">
+
+<input type = "button" value = "Calcular" onclick= "compute_age(this.form)" >
+</div>
+<hr>
+<div id= "milkyway">
+  <div class = "planet">
+    <h4> Mercúrio </h4>
+     <img src= " https://planetas8blog.files.wordpress.com/2016/06/mercurio-gif.gif?w=820 "width = "350" height="280" alt= mercury>
+    <br>
+    Sua idade em mercúrio <div class = "ageyear">
+      <input type= "text"  name="outputmrcday"size = "7">
+ <label for = "outputmrcday"> Dias em Mercúrio </label> <br>
+          <input type = "text"  name = "outputmrcyear" size = "7">
+     <label for ="outputmrcyear" > Anos em Mercúrio </label>
+                                          </div>
+<label for= "outputmrcbday"> Próximo aniversário </label> <br>
+                <input type= "text" name = "outputmrcbday" size ="35">
+                                                              </div>
+                                        <div class="planet">
+                                                                                                                                  <h4>Vênus</h4> <img src= " https://planetas8blog.files.wordpress.com/2016/06/venusdonmiguel.gif?w=820" >
+       <br>
+  Sua idade em Vênus
+       <div
+   class= "ageyear">
+       <input type = "text"  name = "outputvnday" size = "7">
+                                        <label  for = "outputvnday">
+                                                                    Dias em Vênus </label><br>
+     <input type= "text" name ="outputvnyear" size="7">
+                               <label for = " outputvnyear"> Anos em Vênus</label>
+                                                                                                                                       </div>
+                                  <label for = "outputvnbday">  Próximo aniversário </label><br>
+
+                         <input type= "text" name= "outputvnbday" size= "30">
+                                                                 </div>
+                                                                 <div class = "planet">
+                                      <h4>Terra</h4>
+                     <img src = "https://planetas8blog.files.wordpress.com/2016/06/rotacao-terra.gif?w=820"> <br>
+                 Sua idade na Terra                    <div class="ageyear">
+                                          <input type = "text" name = "outputearthday" size="7">
+
+                 <label for ="outputearthday"> Dias na Terra </label> <br>
+           <input type= "text" name= "outputearthyear" size = "7">
+                           <label for = "outputearthyear" > Anos na Terra </label><br>
+              </div>
+             <label for= "outputearthbday"> Próximo aniversário</label><br>
+  <input type= "text" name= "outputearthbday"size= "30">
+  </div>                      </div>
+                                                   <div class = "planet">
+                                                           <h4> Marte </h4>
+       <img src = "https://planetas8blog.files.wordpress.com/2016/06/marte_fobos_y_deimos1.gif?w=820"><br>
+             <br>
+                 Sua idade em Marte                    <div class="ageyear">
+                                          <input type = "text" name = "outputmarsday" size="7">
+
+                 <label for ="outputmarsday"> Dias em Marte </label> <br>
+           <input type= "text" name= "outputmarsyear" size = "7">
+                 <label for = "outputmarsyear" > Anos em Marte</label><br>
+              </div>                             <label for= "outputemarsbday"> Próximo aniversário</label><br>
+  <input type= "text" name= "outputmarsbday"size= "30">
+  </div>                      </div>
+                                       <div class = "planet">
+                                                           <h4> Júpiter</h4>
+       <img src = "https://planetas8blog.files.wordpress.com/2016/06/jupiter.gif?w=278&h=278"><br>
+             <br>
+                 Sua idade em Júpiter                    <div class="ageyear">
+                                          <input type = "text" name = "outputjupday" size="7">
+
+                 <label for ="outputjupday"> Dias em Júpiter </label> <br>
+           <input type= "text" name= "outputjupyear" size = "7">
+                      <label for = "outputjupyear" > Anos em Júpiter</label><br>
+              </div>                             <label for= "outputjupbday"> Próximo aniversário</label><br>
+  <input type= "text" name= "outputjupbday"size= "30">
+  </div>                      </div>
+                                                                                                     <div class = "planet">
+                                                           <h4>Saturno</h4>
+       <img src = "https://planetas8blog.files.wordpress.com/2016/06/planetas-9.gif?w=407&h=289"><br>
+             <br>
+                 Sua idade em Saturno                    <div class="ageyear">
+                                          <input type = "text" name = "outputsatday" size="7">
+                 <label for ="outputsatday"> Dias em Saturno</label> <br>
+           <input type= "text" name= "outputsatyear" size = "7">
+                                                            <label for = "outputsatyear" > Anos em Saturno</label><br>
+              </div>                             <label for= "outputsatbday"> Próximo aniversário</label><br>
+  <input type= "text" name= "outputsatbday"size= "30">
+  </div>
+                            <div class = "planet">
+                                                           <h4>Uranio</h4>
+       <img src = "https://planetas8blog.files.wordpress.com/2016/06/lpc_017gb-uranus.gif?w=310&h=220"><br>
+             <br>
+                 Sua idade em Uranio                    <div class="ageyear">
+                                          <input type = "text" name = "outputurday" size="7">
+                 <label for ="outputurday"> Dias em Uranio</label> <br>
+           <input type= "text" name= "outputuryear" size = "7">
+                                                            <label for = "outputuryear" > Anos em Uranio</label><br>
+              </div>                             <label for= "outputurbday"> Próximo aniversário</label><br>
+  <input type= "text" name= "outputurbday"size= "30">
+  </div>
+                                <div class = "planet">
+                                                           <h4>Netuno</h4>
+       <img src = "https://planetas8blog.files.wordpress.com/2016/06/neptuno-triton-voyager-2-85081.gif?w=345&h=245"><br>
+             <br>
+                 Sua idade em Netuno                   <div class="ageyear">
+                                          <input type = "text" name = "outputnepday" size="7">
+                 <label for ="outputnepday"> Dias em Netuno</label> <br>
+           <input type= "text" name= "outputnepyear" size = "7">
+                                                            <label for = "outputnepyear" > Anos em Netuno</label><br>
+              </div>                             <label for= "outputnepbday"> Próximo aniversário</label><br>
+  <input type= "text" name= "outputnepbday"size= "30">
+  </div>
